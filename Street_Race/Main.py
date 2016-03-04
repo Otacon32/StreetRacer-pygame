@@ -57,10 +57,10 @@ enm_x_pointer = (220, 350, 500)
 enm_crash = [1, 2]
 
 music_on = False
-sound = pygame.mixer.Sound("./assets/sounds/get_low.ogg")
-sound2 = pygame.mixer.Sound("./assets/sounds/test.ogg")
-nine = pygame.mixer.Sound("./assets/sounds/90s.ogg")
-roppongi = pygame.mixer.Sound("./assets/sounds/roppongi.ogg")
+sound1 = pygame.mixer.Sound("./assets/sounds/sound1.ogg")
+sound2 = pygame.mixer.Sound("./assets/sounds/sound2.ogg")
+sound3 = pygame.mixer.Sound("./assets/sounds/sound3.ogg")
+sound4 = pygame.mixer.Sound("./assets/sounds/sound4.ogg")
 chime = pygame.mixer.Sound("./assets/sounds/chime.wav")
 sound.set_volume(0.2)
 sound2.set_volume(0.2)
@@ -117,7 +117,7 @@ def random_music():
     global playlist
     global music_on
     if music_on == False:
-        playlist = (sound, sound2, nine, roppongi)
+        playlist = (sound1, sound2, sound3, sound4)
         ran = randint(0,3)
         music_pointer = ran
         playlist[ran].play()
