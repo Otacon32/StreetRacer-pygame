@@ -1,8 +1,6 @@
 # StreetRacer-pygame
 A little game that i programmed to learn python and see how developing games can be.
 
-------Files still need to bee uploaded------
-
 ####What you need:
 - Python 3.x
 - Pygame
