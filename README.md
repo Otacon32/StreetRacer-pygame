@@ -20,3 +20,6 @@ Try not to crash with the other vehicles on the road and gain more points by col
 ####Features:
 Levels which change the Speed of game.
 Game starts on 30fps and switches to 60fps after a certain Level. :ok_hand:
+
+####About Music:
+Music right now i hardcoded and i replaced the sound files. So you cant hear anything because the files are emtpy. You can mod it but pygame only supports ogg.
