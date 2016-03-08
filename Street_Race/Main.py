@@ -62,11 +62,11 @@ sound2 = pygame.mixer.Sound("./assets/sounds/sound2.ogg")
 sound3 = pygame.mixer.Sound("./assets/sounds/sound3.ogg")
 sound4 = pygame.mixer.Sound("./assets/sounds/sound4.ogg")
 chime = pygame.mixer.Sound("./assets/sounds/chime.wav")
-sound.set_volume(0.2)
+sound1.set_volume(0.2)
 sound2.set_volume(0.2)
 chime.set_volume(0.2)
-nine.set_volume(0.2)
-roppongi.set_volume(0.2)
+sound3.set_volume(0.2)
+sound4.set_volume(0.2)
 
 #-----------------#Functions#-----------------
 def Text_on_screen(msg, color, size, pos):
