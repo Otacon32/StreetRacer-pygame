@@ -183,7 +183,7 @@ while not close:
     #--------------------Money Bag!-----------------------------
     if money_bag_counter == 0:
         money_chance = randint(1, 100)
-    if money_bag_counter == 0 and money_chance in range(1,20):
+    if money_bag_counter == 0 and money_chance in range(1,3):
         rnd_mon = randint(0, 2)
         random_money = int(rnd_mon)
         money_bag_counter = 1
